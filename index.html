@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lnag="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cafe Polka</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+   <header class="header">
+     <div class="header-logo-menu">
+       <div class="logo-area">
+         <img src="img/logo.svg">
+       </div>
+
+       <nav class="sp-only">
+         <div class="gnav-toggle">
+           <input id="gnav-input" type="checkbox" class="gnav-hidden">
+           <label id="gnav-open" for="gnav-input"><span></span></label>
+           <label class="gnav-unshown" id="gnav-close" for="gnav-input"></label>
+           <div id="gnav-content">
+             <ul class="gnav-menu">
+              <li class="gnav-item">
+                <a href="#service">Selling point<br>お店の売り</a>
+              </li>
+              <li class="gnav-item">
+                <a href="#menu">menu<br>メニュー</a>
+              </li>
+              <li class="gnav-item">
+                <a href="#access">access<br>アクセス
+              </a>
+              </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+
+       <nav class="pc-only">
+        <ul class="gnav-menu">
+          <li class="gnav-item">
+            <a href="#info">Selling point<br>お店の売り</a>
+          </li>
+          <li class="gnav-item">
+            <a href="#menu">menu<br>メニュー</a>
+          </li>
+          <li class="gnav-item">
+            <a href="#space-plan">SpacePlan<br>スペースプラン</a>
+          </li>
+          <li class="gnav-item">
+            <a href="#access">access<br>アクセス
+          </a>
+          </li>
+         </ul>
+       </nav>
+     </div>
+    </header>
+    
+   <main>
+
+    <section id="mv" class="mv-area">
+      <h1 class="mv-title">ちょっとゆっくり<br class="sp-only">していきませんか？</h1>
+      <button type="button" onclick="location.href='#'" class="btn btn-reserve">
+      予約はコチラ</button>
+
+    </section>
+
+    <section  id="info" class="info-area">
+      <div class="inner info-content">
+        <div class="info-txt">
+          <h2>厳選した珈琲豆を使用し<br class="sp-only">水やフィルターにもこだわっていれたコーヒー</h2>
+          <p>店主が選びに選んで厳選した豆を使用し、コーヒーを淹れるフィルターやお水も普通では手に入れられない
+            物を使用し他のお店では味わえないコーヒーが味わえます。
+          </p>
+        </div>
+        <img src="img/coffee.jpg" alt="コーヒー豆">
+      </div>
+        <div class="inner info-content">
+          <div class="info-txt">
+            <h2>種類が豊富で<br class="sp-only">美味しいデザート</h2>
+            <p>アフォガードやケーキなど種類が豊富なデザートも準備しています。どのデザートもコーヒーとの相性抜群！
+              もちろんデザートに使用する素材も厳選した素材を使用しています。
+            </p>
+          </div>
+          <img src="img/dessert.jpg" alt="デザート">
+        </div>
+        
+    </section>
+
+    <section class="ov">
+      
+    </section>
+
+    <section id="menu" class="service-area">
+      <div class="inner">
+        <h2 class="h2-title">Menu</h2>
+        <h3>メニュー</h3>
+        <p>当店自慢のメニューを少しご紹介させていただきます。<br class="pc-only">
+          もちろんこちらに載せている以外にも色々なメニューを取り揃えています。<p>
+      </div>
+
+      <ul class="service-content">
+        <li class="service-item">
+          <img src="img/coffee-menu.jpg">
+          <h4>coofee</h4>
+          <h5>500円</h5>
+          <p>淹れたてのコーヒーで優雅なひと時をお楽しみください</p>
+        </li>
+        <li class="service-item">
+         <img src="img/bread.jpg">
+         <h4>bread</h4>
+         <h5>200円~500円</h5>
+         <p>焼きたてのパンはいかがでしょうか？コーヒーとの相性は抜群です。</p>
+        </li>
+        <li class="service-item">
+         <img src="img/dessert-menu.jpg">
+         <h4>dessert</h4>
+         <h5>350円～600円</h5>
+         <p>アフォガードやケーキなどのデザートもございます。</p>
+        </li> 
+        <li class="service-item">
+         <img src="img/takeout.jpg">
+         <h4>takeout<h4>
+           <h5>350円~600円</h5>
+           <p>お持ち帰りも可能です。ですが一部対応できない商品がございます。</p>
+         </h4>
+        </li>
+      </ul>
+    </section>
+
+    <section id="space-plan" class="space">
+      <div class="inner">
+        <h2 class="h2-title">SpacePlan</h2>
+        <h3>スペースプラン</h3>
+        <p class="txt-center">喫茶店のスペースを使って小さなコンサートや展示会などを<br class="sp-only">
+        開催していただく事が出来ます。</p>
+        <ul class="plan-content">
+          <li class="plan-item">
+            <img src="img/live.jpg">
+            <div class="plan-info">
+              <h4 class="plan-title">貸し切りプラン</h4>
+              <p>時間帯を指定し貸切るプランです。<br>
+                厨房スペースもご利用可能です。
+              </p>
+              <ul class="plan-list">
+                <li>1時間プラン</li>
+              <p class="plan-price">1時間/5000円</p>
+                <li>1日プラン</li>
+              <p class="plan-price">1日/50000円</p>
+              </ul>
+            </div>
+          </li>
+
+          <li class="plan-item">
+            <img src="img/display.jpg">
+            <div class="plan-info">
+              <h4 class="plan-title">展示プラン</h4>
+              <p>決められた期間内で店内に創作物を展示するプランです。<br>
+                厨房スペースは基本利用できません。
+              </p>
+              <ul class="plan-list">
+                <li>1週間プラン</li>
+                 <p class="plan-price">1週間/15000円</p>
+                <li>1か月プラン</li>
+                 <p class="plan-price">1か月/50000円</p>
+            </ul>
+            </div>
+          </li>
+        </ul>
+        <button type="button" onclick="location.href='#'" class="btn btn-reserve">
+        予約はコチラから</button>
+      </div>
+    </section>
+
+    <section  id ="access" class="access-area">
+      <div class="inner">
+        <h2 class="h2-title">ACCESS</h2>
+        <h3>アクセス</h3>
+        <div class="access-content">
+          <div>
+            <p class="txt-lead">電車でお越しの場合</p>
+            <p>吉祥寺駅 徒歩8分<br>
+            吉祥寺ビル１F</p>
+          </div>
+          <img src="img/shop.jpg">
+        </div>
+      </div>
+      <div class="access-maparea">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12959.749612644931!2d139.5713603223045!3d35.703157983024255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee45e33d4305%3A0x770cb37aee4fd5e1!2z5p2x5Lqs6YO95q2m6JS16YeO5biCIOWQieelpeWvug!5e0!3m2!1sja!2sjp!4v1598975543594!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="access-map"></iframe>
+      </div>
+
+    </section>
+
+    <div class="pagetop">
+     <a href="#mv">ページトップ</a>
+    </div>
+  </main>
+  <footer class="foot-area">
+    <div class="inner">
+    <div class="logo-area foot-logo">
+     <img src="img/logo.svg">
+    </div>
+     <p class="txt-center">気軽にお立ち寄りください。</p>
+     <address class="txt-center">
+       TEL:<a href="000-1234-5678">000-1234-5678</a>
+     </address>
+    </div>  
+    <small class="foot-area_copy">&copy;cafe polka</small>
+  </footer>
+    
+  </body>
+</html>
