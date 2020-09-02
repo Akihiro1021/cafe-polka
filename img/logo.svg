@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="70" viewBox="0 0 200 70">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 37.5px;
+        fill: #fff;
+        font-family: "UD Digi Kyokasho NP-R";
+      }
+    </style>
+  </defs>
+  <text id="cafe_polka" data-name="cafe polka" class="cls-1" x="2" y="45">cafe polka</text>
+</svg>
